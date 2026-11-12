@@ -1,0 +1,3 @@
+Method,n,Non-empty predictions,FP area ≥ 0.1%,Mean false-positive area ratio (%),Pixel-level background specificity (%),Mean max probability
+U-Net (MiT-B3) Mean Teacher,24,24,24,0.600,99.400,0.999974
+BA-LDNet,24,24,24,0.569,99.431,0.999990

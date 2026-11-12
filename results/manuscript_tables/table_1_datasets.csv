@@ -1,0 +1,5 @@
+Dataset,Image-mask pairs,Purpose,Protocol,Used for model selection
+DFUC2022 training set,1600,Model training,"5%: 80/1,520; 10%: 160/1,440; 20%: 320/1,280",No
+DFUC2022 internal-validation set,400,Internal validation and checkpoint selection,Shared across the three labeling protocols,Yes
+FUSeg wound-containing subset,986,External evaluation,Fixed threshold of 0.5 after model locking,No
+FUSeg empty-mask subset,24,External evaluation,False-positive predictions analyzed separately,No

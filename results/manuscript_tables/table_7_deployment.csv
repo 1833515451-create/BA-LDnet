@@ -1,0 +1,4 @@
+Model/stage,Deployment status,Parameters/GMACs,Latency (ms),Peak memory (MB)
+U-Net (MiT-B3) Mean Teacher,Deployment pathway,"47,352,849/10.5201",27.24,218.70
+BA-LDNet,Deployment pathway after removing the boundary auxiliary head,"47,352,849/10.5201",26.51,217.76
+BA-LDNet student network,Boundary auxiliary head retained,"47,354,210/10.5778",26.05,218.08

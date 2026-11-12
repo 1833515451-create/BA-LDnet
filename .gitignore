@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+data/
+runs/
+evaluations/
+figures/regenerated/
+src/outputs*/
+*.pth
+*.pt
+*.ckpt

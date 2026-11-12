@@ -1,0 +1,5 @@
+Subset,Model,n,Precision (%),Recall (%),Dice (%)
+Small,U-Net (MiT-B3) Mean Teacher,596,60.87,95.19,70.95
+Small,BA-LDNet,596,63.17,94.78,72.43
+Tiny,U-Net (MiT-B3) Mean Teacher,156,40.77,98.38,54.39
+Tiny,BA-LDNet,156,44.41,97.94,57.54

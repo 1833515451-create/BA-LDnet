@@ -1,0 +1,2 @@
+Comparison,Both adequate,Both fail,New failure,Recovered,Net recovered,Dice improved,Mean ΔDice (pp),Mean ΔB-F1 (pp)
+U-Net (MiT-B3) Mean Teacher → BA-LDNet,900,66,7,13,6,553,+0.88,+1.39

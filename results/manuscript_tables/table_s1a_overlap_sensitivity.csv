@@ -1,0 +1,5 @@
+Evaluation set,n,Model,Dice/IoU (%),P/R (%),Small/Tiny/B-F1 (%),HD95/ASSD (px)
+Full validation set,400,U-Net (MiT-B3) Mean Teacher,77.04/66.39,78.16/81.58,69.61/54.21/57.66,15.49/5.38
+Full validation set,400,BA-LDNet,78.43/67.88,79.54/82.62,71.64/57.99/59.96,15.38/5.56
+After overlap exclusion,389,U-Net (MiT-B3) Mean Teacher,76.88/66.22,78.13/81.34,69.41/54.37/57.50,15.69/5.46
+After overlap exclusion,389,BA-LDNet,78.30/67.74,79.52/82.43,71.46/58.30/59.82,15.60/5.65

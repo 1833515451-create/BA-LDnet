@@ -1,0 +1,35 @@
+{
+  "protocol": "DFUC2022 fixed image-level split with nested labeled subsets",
+  "total_pairs": 2000,
+  "train_pairs": 1600,
+  "validation_pairs": 400,
+  "train_ratio": 0.8,
+  "split_seed": 2026,
+  "label_seed": 4053,
+  "label_subsets": {
+    "05pct": {
+      "labeled": 80,
+      "unlabeled": 1520
+    },
+    "10pct": {
+      "labeled": 160,
+      "unlabeled": 1440
+    },
+    "20pct": {
+      "labeled": 320,
+      "unlabeled": 1280
+    }
+  },
+  "nested_subsets": true,
+  "patient_level_split": false,
+  "manifest_sha256": {
+    "labeled_05pct.csv": "1092194c495a67fb6c9394f898f1a0b01269670640ee9b84dd614b3216d985dd",
+    "labeled_10pct.csv": "d1f44c3f9542d019cb2c83c76003017a667cc15dd1f3ace7b4e69086f01289f0",
+    "labeled_20pct.csv": "1274ae7c1e5983510b62f33bc880ad2b9cf2a233c4c8f78b251f3d07845e42c4",
+    "train.csv": "afdf5befa92fb887db0441e4dd4c260ac19ec2378be4a108a047d910a185b6e7",
+    "unlabeled_05pct.csv": "352e9c3489c57ffdf23183a169f2c59ba35ad56187b1a007d6a5e1f3495bdcbe",
+    "unlabeled_10pct.csv": "a878e2c52fb5b7b74441ed608c1ffd0e233cfd779f815d6a5df31f2e0623a693",
+    "unlabeled_20pct.csv": "3aa69d173f4a24fc3cc05ee7449b82ea26532e1f4c3540b94552893ce5cb101a",
+    "validation.csv": "27d0b7e6aed40c8bbc9707b0aead8b30c7c3c9d4cc4d5a54115ee378802b31db"
+  }
+}

@@ -1,0 +1,7 @@
+Spatial-error type,U-Net (MiT-B3)Mean Teacher,Resolved,New,BA-LDNet,Net change
+Tiny wound overwhelmed by expanded foreground,101,16,2,87,-14
+Substantial boundary leakage into adjacent tissue,86,14,6,78,-8
+Local boundary misalignment,18,9,3,12,-6
+Missed secondary-wound region,63,11,9,61,-2
+Complete wound miss,1,1,0,0,-1
+Total,269,51,20,238,-31
